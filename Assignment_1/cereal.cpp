@@ -2,7 +2,7 @@
   Ian Rasmussen
   2317200
   irasmussen@chapman.edu
-  CPSC298-01
+  CPSC 298-01
   Assignment 1
   cereal
 */
