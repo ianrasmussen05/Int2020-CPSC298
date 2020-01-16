@@ -2,10 +2,8 @@
 
 using namespace std;
 
-int numSquare (int num)
-{
-  return num * num;
-}
+// function prototype
+int numSquare (int num);
 
 int main (int argc, char **argv)
 {
@@ -21,4 +19,9 @@ int main (int argc, char **argv)
   cout << "The value squared of " << argv[1] << " is " << numSquare(atoi(argv[1])) << endl;
 
   return 0;
+}
+
+int numSquare (int num)
+{
+  return num * num;
 }
