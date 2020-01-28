@@ -14,11 +14,12 @@ using namespace std;
 int main(int argc, char **argv)
 {
   const int NUM_ROWS = 4; // const variable to set rows for 2d array
-  const int NUM_COLUMNS = 5; // const variable to set columns for 2d array 
+  const int NUM_COLUMNS = 5; // const variable to set columns for 2d array
 
   int array2d[NUM_ROWS][NUM_COLUMNS];
   int userInput = 0;
 
+  // Gets user input for each row and column and stores it into the array
   for (int i = 0; i < NUM_ROWS; ++i)
   {
     for (int j = 0; j < NUM_COLUMNS; ++j)
@@ -31,6 +32,7 @@ int main(int argc, char **argv)
   cout << endl;
   cout << "Your 2D Array:" << endl;
 
+  // Prints out each value in the array by rows and columns 
   for (int i = 0; i < NUM_ROWS; ++i)
   {
     for (int j = 0; j < NUM_COLUMNS; ++j)
